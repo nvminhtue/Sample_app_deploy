@@ -1,0 +1,166 @@
+
+en:
+  hello: "Hello world"
+  models:
+    micropost:
+      less: "should be less than 5MB"
+  mailers:
+    user_mailer:
+      act_subject: "Account activation"
+      pass_subject: "Password reset"
+  controllers:
+    microposts_controller:
+      success: "Micropost created!"
+      delete: "Micropost deleted"
+    application_controller:
+      please: "Please log in."
+    password_resets_controller:
+      info: "Email sent with password reset instructions"
+      danger: "Email address not found"
+      success: "Password has been reset."
+      expire: "Password reset has expired."
+    account_activations_controller:
+      success: "Account activated!"
+      danger: "Invalid activation link"
+    users_controller:
+      danger: "Delete error"
+      welcome: "Welcome to the Sample App!"
+      active: "Please check your email to activate your account."
+      info: "User is not found!"
+      new: "new"
+      delete: "User deleted"
+      wrong: "No editing permittion"
+    sessions_controller:
+      invalid: "Invalid email or password"
+      message: "Account not activated. Check your email for the activation link."
+  sessions:
+    new:
+      login: "Log in"
+      forgot: "(forgot password)"
+      new: "New user?"
+      sign: "Sign up now!"
+      remember: "Remember me on this computer"
+  shared:
+    stats:
+      following: "following"
+      followers: "followers"
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
+    user_info:
+      view: "View my profile"
+      micropost:
+        one: "%{count} micropost"
+        other: "%{count} microposts"
+    error_messages:
+      form: "The form contains"
+      error:
+        one: "%{count} error"
+        other: "%{count} errors"
+  layouts:
+    header:
+      sample: "sample app"
+      home: "Home"
+      help: "Help"
+      user: "Users"
+      account_dropdown: "Account %{bold}"
+      login: "Log in"
+      logout: "Log out"
+      profile: "Profile"
+      setting: "Setting"
+    footer:
+      by: "by"
+      micheal: "Michael Hartl"
+      link: "http://www.michaelhartl.com/"
+      news: "News"
+  users:
+    show_follow:
+      microposts: "Microposts:"
+    new:
+      sign: "Sign up"
+      this: "This will be a signup page for new users."
+      confirm: "Confirmation"
+      create: "Create my account"
+    edit:
+      save: "Save changes"
+      change: "Change"
+      link: "http://gravatar.com/emails"
+    index:
+      all: "All users"
+    user:
+      delete: "delete"
+      confirm: "You sure?"
+    show:
+      microposts: "Microposts"
+    follow:
+      follow: "Follow"
+    unfollow:
+      unfollow: "Unfollow"
+  microposts:
+    micropost:
+      post: "Posted "
+      ago: "ago."
+  static_pages:
+    contact:
+      head: "Contact"
+      contact: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      page: "contact page"
+      link: "http://www.railstutorial.org/contact"
+    about:
+      head: "About"
+      tutorial: "Ruby on Rails Tutorial"
+      the: "The"
+      isa: "is a"
+      link_book: "%{book_link}"
+      book: "book"
+      and: "and"
+      series: "screencast series"
+      to: "to teach web development with"
+      ruby: "Ruby on Rails"
+      sample: "This is the sample application for the tutorial."
+      book_link: "http://www.railstutorial.org/book"
+      link: "http://www.railstutorial.org/"
+      ROR_link: "http://rubyonrails.org/"
+      screencast_link: "http://screencasts.railstutorial.org/"
+    application:
+      ruby: "Ruby on Rails Tutorial Sample App"
+    home:
+      home: "Sample App"
+      micropost: "Micropost Feed"
+      signup: "Sign up now!"
+      this: "This is the home page for the"
+      sample: "sample application."
+      link: "http://www.railstutorial.org/"
+      png: "rails.png"
+      alt: "Rails logo"
+    help:
+      head: "Help"
+      get: "Get help on the Ruby on Rails Tutorial at the"
+      rail: "Rails Tutorial help page"
+      to: "To get help on this sample app, see the"
+      link: "http://www.railstutorial.org/help"
+  user_mailer:
+    account_activation:
+      hi: "Hi "
+      welcome: "Welcome to the Sample App! Click on the link below to activate
+        your account:"
+      sample: "Sample App"
+      activate: "Activate"
+      comma: ","
+    password_reset:
+      password: "Password reset"
+      click: "To reset your password click the link below:"
+      reset: "Reset password"
+      expire: "This link will expire in two hours."
+      ignore: "If you did not request your password to be reset, please ignore
+        this email and your password will stay as it is."
+  password_resets:
+    new:
+      forgot: "Forgot password"
+      submit: "Submit"
+    edit:
+      reset: "Reset password"
+      confirm: "Confirmation"
+      update: "Update password"
+
+

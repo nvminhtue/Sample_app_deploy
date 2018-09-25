@@ -1,0 +1,12 @@
+user:
+  name:
+    _max: 50
+  email:
+    _max: 255
+  pass:
+    _min: 6
+  size: 50
+check:
+  remember: "1"
+show_follow:
+  size: 30
